@@ -63,6 +63,10 @@
     <keyboard-shortcut first-keystroke="meta o" />
   </action>
   <action id="OverrideMethods" />
+  <action id="Refactorings.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="shift meta alt t" />
+    <keyboard-shortcut first-keystroke="ctrl t" />
+  </action>
   <action id="ReformatCode" />
   <action id="Run">
     <keyboard-shortcut first-keystroke="ctrl r" />
