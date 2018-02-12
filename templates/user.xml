@@ -41,7 +41,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="lc" value="$LOGGER_VAR$loggerCreator(&quot;$METHOD$&quot;, moduleLogger);" description="" toReformat="true" toShortenFQNames="true">
+  <template name="lc" value="$LOGGER_VAR$loggerCreator(&quot;$METHOD$&quot;, moduleLogger);" toReformat="true" toShortenFQNames="true">
     <variable name="LOGGER_VAR" expression="" defaultValue="&quot;const logger = &quot;" alwaysStopAt="true" />
     <variable name="METHOD" expression="jsMethodName()" defaultValue="" alwaysStopAt="true" />
     <context>
