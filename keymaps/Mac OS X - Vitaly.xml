@@ -20,6 +20,7 @@
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
   <action id="DecrementWindowHeight" />
+  <action id="Diff.FocusOppositePane" />
   <action id="EditorCodeBlockEnd" />
   <action id="EditorCodeBlockStart" />
   <action id="EditorScrollDown" />
