@@ -11,7 +11,7 @@
       <settings>
         <command-line-options>--args --user-data-dir=&quot;/users/vitalyb/chrome_dev_session_2&quot; --disable-web-security --no-first-run</command-line-options>
         <use-custom-profile>true</use-custom-profile>
-        <user-data-dir>$APPLICATION_CONFIG_DIR$/chromium-user-data</user-data-dir>
+        <user-data-dir>$APPLICATION_CONFIG_DIR$/chromium-user-data2</user-data-dir>
       </settings>
     </browser>
     <browser id="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" name="Firefox" family="FIREFOX" />
