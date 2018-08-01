@@ -6,5 +6,6 @@
     <entry key="dumb.aware.run.configurations" value="true" />
     <entry key="ide.editor.tabs.open.at.the.end" value="true" />
     <entry key="ide.tooltip.show.with.actions" value="true" />
+    <entry key="debugger.watches.in.variables" value="false" />
   </component>
 </application>
