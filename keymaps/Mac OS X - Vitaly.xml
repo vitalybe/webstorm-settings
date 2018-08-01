@@ -65,6 +65,9 @@
     <keyboard-shortcut first-keystroke="shift meta n" />
     <keyboard-shortcut first-keystroke="shift meta o" />
   </action>
+  <action id="GotoImplementation">
+    <mouse-shortcut keystroke="meta alt button1" />
+  </action>
   <action id="GotoLine">
     <keyboard-shortcut first-keystroke="meta l" />
   </action>
@@ -130,6 +133,10 @@
   </action>
   <action id="ToggleBreakpointEnabled">
     <keyboard-shortcut first-keystroke="shift meta f8" />
+  </action>
+  <action id="ToggleLineBreakpoint">
+    <keyboard-shortcut first-keystroke="meta f8" />
+    <keyboard-shortcut first-keystroke="meta alt b" />
   </action>
   <action id="Tool_External Tools_PrettierTool">
     <keyboard-shortcut first-keystroke="meta alt l" />
