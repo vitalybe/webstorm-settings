@@ -1,7 +1,7 @@
 <toolSet name="External Tools">
-  <tool name="PrettierTool" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="PrettierTool" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="/usr/local/bin/prettier" />
+      <option name="COMMAND" value="$ProjectFileDir$/node_modules/.bin/prettier" />
       <option name="PARAMETERS" value="--write --trailing-comma es5 --jsx-bracket-same-line true --print-width 120 $FilePathRelativeToProjectRoot$" />
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
