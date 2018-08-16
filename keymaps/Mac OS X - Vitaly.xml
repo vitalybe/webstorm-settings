@@ -138,8 +138,12 @@
     <keyboard-shortcut first-keystroke="meta f8" />
     <keyboard-shortcut first-keystroke="meta alt b" />
   </action>
+  <action id="Tool_External Tools_Hygen - Component">
+    <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="c" />
+  </action>
   <action id="Tool_External Tools_PrettierTool">
     <keyboard-shortcut first-keystroke="meta alt l" />
+    <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="p" />
   </action>
   <action id="Tool_External Tools_abcd">
     <keyboard-shortcut first-keystroke="meta alt l" />
