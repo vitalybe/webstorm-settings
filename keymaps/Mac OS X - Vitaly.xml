@@ -142,6 +142,9 @@
     <keyboard-shortcut first-keystroke="meta f8" />
     <keyboard-shortcut first-keystroke="meta alt b" />
   </action>
+  <action id="Tool_External Tools_Hygen - Class">
+    <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="l" />
+  </action>
   <action id="Tool_External Tools_Hygen - Component">
     <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="c" />
   </action>
