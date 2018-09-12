@@ -51,4 +51,12 @@
       <option name="TS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="sc" value="const $COMPONENT$Styled = styled($COMPONENT$)`&#10;  ${(props: {}) =&gt; css`&#10;    $CURSOR$&#10;  `};&#10;`;" description="Styled component" toReformat="true" toShortenFQNames="true">
+    <variable name="COMPONENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
