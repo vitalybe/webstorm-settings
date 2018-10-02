@@ -1,7 +1,4 @@
 <keymap version="1" name="Mac OS X - Vitaly" parent="Mac OS X">
-  <action id="ActivateTypeScriptToolWindow">
-    <keyboard-shortcut first-keystroke="ctrl b" second-keystroke="ctrl t" />
-  </action>
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
   <action id="Arrangement.Rule.Match.Condition.Move.Up" />
   <action id="Back">
@@ -83,7 +80,7 @@
   <action id="Images.ShowThumbnails" />
   <action id="IncrementWindowHeight" />
   <action id="JS.TypeScript.Compile">
-    <keyboard-shortcut first-keystroke="ctrl b" second-keystroke="ctrl b" />
+    <keyboard-shortcut first-keystroke="shift meta b" />
   </action>
   <action id="MoveStatementDown">
     <keyboard-shortcut first-keystroke="ctrl meta down" />
