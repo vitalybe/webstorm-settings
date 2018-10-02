@@ -1,6 +1,6 @@
 <keymap version="1" name="Mac OS X - Vitaly" parent="Mac OS X">
   <action id="ActivateTypeScriptToolWindow">
-    <keyboard-shortcut first-keystroke="meta alt t" />
+    <keyboard-shortcut first-keystroke="ctrl b" second-keystroke="ctrl t" />
   </action>
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
   <action id="Arrangement.Rule.Match.Condition.Move.Up" />
@@ -83,7 +83,7 @@
   <action id="Images.ShowThumbnails" />
   <action id="IncrementWindowHeight" />
   <action id="JS.TypeScript.Compile">
-    <keyboard-shortcut first-keystroke="shift meta b" />
+    <keyboard-shortcut first-keystroke="ctrl b" second-keystroke="ctrl b" />
   </action>
   <action id="MoveStatementDown">
     <keyboard-shortcut first-keystroke="ctrl meta down" />
@@ -134,7 +134,6 @@
   <action id="StepOver">
     <keyboard-shortcut first-keystroke="f10" />
   </action>
-  <action id="SurroundWith" />
   <action id="ToggleBookmark">
     <keyboard-shortcut first-keystroke="ctrl back_quote" />
   </action>

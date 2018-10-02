@@ -40,7 +40,7 @@
       <option name="TS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="mobxAsync" value="  private $NAME$AsyncObservable = promisedComputed(undefined, async () =&gt; {&#10;  });&#10;&#10;  @computed&#10;  get $NAME$Async() {&#10;    return this.$NAME$AsyncObservable;&#10;  }" toReformat="false" toShortenFQNames="true">
+  <template name="mobxAsync" value="  private $NAME$AsyncObservable = promisedComputed(undefined, async () =&gt; {&#10;  });&#10;&#10;  @computed&#10;  get $NAME$Async() {&#10;    return this.$NAME$AsyncObservable;&#10;  }" description="" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TS_CLASS" value="true" />
