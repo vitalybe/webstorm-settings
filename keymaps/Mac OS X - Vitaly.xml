@@ -1,4 +1,7 @@
 <keymap version="1" name="Mac OS X - Vitaly" parent="Mac OS X">
+  <action id="ActivateTypeScriptToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl meta alt t" />
+  </action>
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
   <action id="Arrangement.Rule.Match.Condition.Move.Up" />
   <action id="Back">
