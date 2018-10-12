@@ -96,7 +96,9 @@
     <keyboard-shortcut first-keystroke="ctrl enter" />
     <keyboard-shortcut first-keystroke="meta n" />
   </action>
-  <action id="OptimizeImports" />
+  <action id="OptimizeImports">
+    <keyboard-shortcut first-keystroke="ctrl meta alt o" />
+  </action>
   <action id="OverrideMethods" />
   <action id="QuickChangeScheme" />
   <action id="Refactorings.QuickListPopupAction">
