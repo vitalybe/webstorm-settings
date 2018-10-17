@@ -46,4 +46,12 @@
       <option name="TS_CLASS" value="true" />
     </context>
   </template>
+  <template name="comp" value="@computed get $NAME$() {&#10;  return $VALUE$;&#10;}" description="computed getter" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_CLASS" value="true" />
+      <option name="TS_CLASS" value="true" />
+    </context>
+  </template>
 </templateSet>
