@@ -2,12 +2,6 @@
   <template name="tmp" value="print &quot;!!!!!! $NAME$ !!!!!!!&quot;" description="" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="pyFunctionName()" defaultValue="" alwaysStopAt="false" />
   </template>
-  <template name="lct" value="let logger = loggerCreator(&quot;test&quot;, moduleLogger);" description="logger create - test" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JSX_HTML" value="true" />
-      <option name="JS_STATEMENT" value="true" />
-    </context>
-  </template>
   <template name="imp" value="import $WHAT$ from &quot;app/$PATH$&quot;;" description="import" toReformat="true" toShortenFQNames="true">
     <variable name="PATH" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="WHAT" expression="" defaultValue="" alwaysStopAt="true" />
@@ -52,6 +46,12 @@
     <context>
       <option name="JS_CLASS" value="true" />
       <option name="TS_CLASS" value="true" />
+    </context>
+  </template>
+  <template name="lcf" value="import { loggerCreator } from &quot;app/utils/logger&quot;;&#10;//noinspection JSUnusedLocalSymbols&#10;const moduleLogger = loggerCreator(__filename);" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
     </context>
   </template>
 </templateSet>
