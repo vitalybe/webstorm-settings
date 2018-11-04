@@ -62,7 +62,7 @@
       <option name="TS_CLASS" value="true" />
     </context>
   </template>
-  <template name="a2" value="$NAME$: mockUtils.mockAction(&quot;$NAME$&quot;)" description="action mock in model" toReformat="false" toShortenFQNames="true">
+  <template name="a2" value="$NAME$: mockUtils.mockAction(&quot;$NAME$&quot;)," description="action mock in model" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
