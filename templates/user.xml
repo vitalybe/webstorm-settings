@@ -76,4 +76,10 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="moduleLogger" value="import { loggerCreator } from &quot;app/utils/logger&quot;;&#10;const moduleLogger = loggerCreator(__filename);" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
