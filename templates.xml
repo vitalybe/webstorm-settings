@@ -3659,46 +3659,6 @@
           <option name="key" value="wfsm:n" />
         </TemplateKey>
         <TemplateKey>
-          <option name="groupName" value="Bash" />
-          <option name="key" value="if" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="Bash" />
-          <option name="key" value="ife" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="Bash" />
-          <option name="key" value="while" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="Bash" />
-          <option name="key" value="until" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="Bash" />
-          <option name="key" value="she" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="Bash" />
-          <option name="key" value="cas" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="Bash" />
-          <option name="key" value="cap" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="Bash" />
-          <option name="key" value="cap2" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="Bash" />
-          <option name="key" value="cap3" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="Bash" />
-          <option name="key" value="ifee" />
-        </TemplateKey>
-        <TemplateKey>
           <option name="groupName" value="JavaScript" />
           <option name="key" value="ref" />
         </TemplateKey>
@@ -4037,6 +3997,46 @@
         <TemplateKey>
           <option name="groupName" value="Meteor HTML" />
           <option name="key" value="temp:name" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="Bash" />
+          <option name="key" value="cas" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="Bash" />
+          <option name="key" value="cap" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="Bash" />
+          <option name="key" value="cap2" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="Bash" />
+          <option name="key" value="cap3" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="Bash" />
+          <option name="key" value="if" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="Bash" />
+          <option name="key" value="ife" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="Bash" />
+          <option name="key" value="ifee" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="Bash" />
+          <option name="key" value="she" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="Bash" />
+          <option name="key" value="until" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="Bash" />
+          <option name="key" value="while" />
         </TemplateKey>
         <TemplateKey>
           <option name="groupName" value="Vue" />

@@ -54,7 +54,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="a1" value="@action&#10;$NAME$ = () =&gt; {&#10;  $CURSOR$&#10;};" description="action function in model" toReformat="false" toShortenFQNames="true">
+  <template name="action-func" value="@action&#10;$NAME$ = () =&gt; {&#10;  $CURSOR$&#10;};" description="action function in model - @action a = () =&gt; { ... }" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -62,7 +62,7 @@
       <option name="TS_CLASS" value="true" />
     </context>
   </template>
-  <template name="a2" value="$NAME$: mockUtils.mockAction(&quot;$NAME$&quot;)," description="action mock in model" toReformat="false" toShortenFQNames="true">
+  <template name="action-mock" value="$NAME$: mockUtils.mockAction(&quot;$NAME$&quot;)," description="action mock in model - a: mockUtils.mockAction(&quot;a&quot;)," toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
