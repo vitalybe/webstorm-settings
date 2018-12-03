@@ -153,6 +153,9 @@
   <action id="Tool_External Tools_Hygen - Component">
     <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="c" />
   </action>
+  <action id="Tool_External Tools_Hygen - Component (simple)">
+    <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="i" />
+  </action>
   <action id="Tool_External Tools_Hygen - Singleton">
     <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="s" />
   </action>
