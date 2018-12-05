@@ -9,6 +9,7 @@
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="meta open_bracket" />
   </action>
+  <action id="ChangesView.Diff" />
   <action id="ChooseDebugConfiguration">
     <keyboard-shortcut first-keystroke="ctrl alt d" />
   </action>
@@ -19,6 +20,10 @@
     <keyboard-shortcut first-keystroke="meta f4" />
     <keyboard-shortcut first-keystroke="meta w" />
   </action>
+  <action id="Compare.LastVersion">
+    <keyboard-shortcut first-keystroke="meta d" />
+  </action>
+  <action id="CompareTwoFiles" />
   <action id="Debug">
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
@@ -27,6 +32,7 @@
   <action id="EditBreakpoint" />
   <action id="EditorCodeBlockEnd" />
   <action id="EditorCodeBlockStart" />
+  <action id="EditorDuplicate" />
   <action id="EditorScrollDown" />
   <action id="EditorScrollUp" />
   <action id="EditorSelectWord">
@@ -52,6 +58,7 @@
     <keyboard-shortcut first-keystroke="shift meta w" />
     <keyboard-shortcut first-keystroke="alt down" />
   </action>
+  <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.NewFolder" />
   <action id="FindInPath">
     <keyboard-shortcut first-keystroke="shift ctrl f" />
@@ -85,6 +92,7 @@
   <action id="JS.TypeScript.Compile">
     <keyboard-shortcut first-keystroke="shift meta b" />
   </action>
+  <action id="MethodHierarchy" />
   <action id="MoveStatementDown">
     <keyboard-shortcut first-keystroke="ctrl meta down" />
   </action>
@@ -119,11 +127,13 @@
   <action id="Run">
     <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
+  <action id="RunDashboard.CopyConfiguration" />
   <action id="RunDashboard.ShowConfigurations" />
   <action id="SelectIn">
     <keyboard-shortcut first-keystroke="alt f1" />
     <keyboard-shortcut first-keystroke="meta f1" />
   </action>
+  <action id="SendEOF" />
   <action id="ShowBookmarks">
     <keyboard-shortcut first-keystroke="shift ctrl back_quote" />
   </action>
@@ -168,7 +178,12 @@
   </action>
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.ReformatCommitMessage" />
+  <action id="Vcs.ShowTabbedFileHistory">
+    <keyboard-shortcut first-keystroke="shift meta h" />
+  </action>
   <action id="ViewBreakpoints" />
+  <action id="XDebugger.CopyWatch" />
+  <action id="openAssertEqualsDiff" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleBoldAction">
     <keyboard-shortcut first-keystroke="alt b" />
   </action>
