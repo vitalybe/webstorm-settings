@@ -173,6 +173,9 @@
   <action id="Tool_External Tools_Hygen - Singleton">
     <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="s" />
   </action>
+  <action id="Tool_External Tools_Mass rename">
+    <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="r" />
+  </action>
   <action id="Tool_External Tools_PrettierTool">
     <keyboard-shortcut first-keystroke="meta alt l" />
     <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="p" />

@@ -34,4 +34,11 @@
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
+  <tool name="Mass rename" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/usr/local/bin/node" />
+      <option name="PARAMETERS" value="$USER_HOME$/git/file-and-content-rename/index.js &quot;$FileDir$&quot; &quot;$FileDirName$ -&gt; $Prompt$&quot;" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/git/file-and-content-rename" />
+    </exec>
+  </tool>
 </toolSet>
