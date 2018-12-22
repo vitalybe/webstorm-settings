@@ -3936,10 +3936,6 @@
         </TemplateKey>
         <TemplateKey>
           <option name="groupName" value="Angular" />
-          <option name="key" value="a-module-routing" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="Angular" />
           <option name="key" value="a-service" />
         </TemplateKey>
         <TemplateKey>
@@ -3971,6 +3967,10 @@
           <option name="key" value="itar" />
         </TemplateKey>
         <TemplateKey>
+          <option name="groupName" value="Meteor HTML" />
+          <option name="key" value="temp:name" />
+        </TemplateKey>
+        <TemplateKey>
           <option name="groupName" value="HTTP Request" />
           <option name="key" value="gtr" />
         </TemplateKey>
@@ -3993,50 +3993,6 @@
         <TemplateKey>
           <option name="groupName" value="HTTP Request" />
           <option name="key" value="fptr" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="Meteor HTML" />
-          <option name="key" value="temp:name" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="Bash" />
-          <option name="key" value="cas" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="Bash" />
-          <option name="key" value="cap" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="Bash" />
-          <option name="key" value="cap2" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="Bash" />
-          <option name="key" value="cap3" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="Bash" />
-          <option name="key" value="if" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="Bash" />
-          <option name="key" value="ife" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="Bash" />
-          <option name="key" value="ifee" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="Bash" />
-          <option name="key" value="she" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="Bash" />
-          <option name="key" value="until" />
-        </TemplateKey>
-        <TemplateKey>
-          <option name="groupName" value="Bash" />
-          <option name="key" value="while" />
         </TemplateKey>
         <TemplateKey>
           <option name="groupName" value="Vue" />
