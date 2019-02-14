@@ -194,4 +194,7 @@
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleBoldAction">
     <keyboard-shortcut first-keystroke="alt b" />
   </action>
+  <action id="osmedile.intellij.stringmanip.RepeatAction">
+    <keyboard-shortcut first-keystroke="meta alt r" />
+  </action>
 </keymap>
