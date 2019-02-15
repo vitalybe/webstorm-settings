@@ -170,6 +170,12 @@
   <action id="Tool_External Tools_Hygen - Component (simple)">
     <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="i" />
   </action>
+  <action id="Tool_External Tools_Hygen - Entity">
+    <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="e" />
+  </action>
+  <action id="Tool_External Tools_Hygen - Provider">
+    <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="p" />
+  </action>
   <action id="Tool_External Tools_Hygen - Singleton">
     <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="s" />
   </action>
@@ -178,7 +184,6 @@
   </action>
   <action id="Tool_External Tools_PrettierTool">
     <keyboard-shortcut first-keystroke="meta alt l" />
-    <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="p" />
   </action>
   <action id="Tool_External Tools_abcd">
     <keyboard-shortcut first-keystroke="meta alt l" />
