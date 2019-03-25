@@ -91,7 +91,7 @@
       <option name="TS_CLASS" value="true" />
     </context>
   </template>
-  <template name="th" value="throw new Error(&quot;$CURSOR$&quot;)" description="throw new error" toReformat="true" toShortenFQNames="true">
+  <template name="th" value="throw new Error(`$CURSOR$`)" description="throw new error" toReformat="true" toShortenFQNames="true">
     <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
