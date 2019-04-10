@@ -64,8 +64,8 @@
   </tool>
   <tool name="TSC" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="/usr/local/bin/yarn" />
-      <option name="PARAMETERS" value="run tsc -w" />
+      <option name="COMMAND" value="/usr/local/bin/node" />
+      <option name="PARAMETERS" value="$ProjectFileDir$/tsc-watch-wrapper.js" />
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
     <filter>
