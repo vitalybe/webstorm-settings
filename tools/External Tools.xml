@@ -62,15 +62,15 @@
       <option name="WORKING_DIRECTORY" value="$USER_HOME$/git/file-and-content-rename" />
     </exec>
   </tool>
-  <tool name="TypeScript build and watch" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="TypeScript build and watch" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="/usr/local/bin/node" />
       <option name="PARAMETERS" value="$ProjectFileDir$/scripts/tsc-watch-wrapper.js" />
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
     <filter>
-      <option name="NAME" value="" />
-      <option name="DESCRIPTION" value="" />
+      <option name="NAME" />
+      <option name="DESCRIPTION" />
       <option name="REGEXP" value="$FILE_PATH$:$LINE$:$COLUMN$.*" />
     </filter>
   </tool>

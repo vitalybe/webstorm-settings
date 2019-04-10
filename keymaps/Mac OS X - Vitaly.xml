@@ -89,6 +89,9 @@
   <action id="GotoTest" />
   <action id="Images.ShowThumbnails" />
   <action id="IncrementWindowHeight" />
+  <action id="JS.TypeScript.Compile">
+    <keyboard-shortcut first-keystroke="shift meta b" />
+  </action>
   <action id="MethodHierarchy" />
   <action id="MoveStatementDown">
     <keyboard-shortcut first-keystroke="ctrl meta down" />
@@ -184,9 +187,6 @@
   </action>
   <action id="Tool_External Tools_PrettierTool">
     <keyboard-shortcut first-keystroke="meta alt l" />
-  </action>
-  <action id="Tool_External Tools_TypeScript build and watch">
-    <keyboard-shortcut first-keystroke="shift meta b" />
   </action>
   <action id="Tool_External Tools_abcd">
     <keyboard-shortcut first-keystroke="meta alt l" />
