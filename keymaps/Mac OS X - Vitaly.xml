@@ -195,6 +195,9 @@
   <action id="Tool_External Tools_abcd">
     <keyboard-shortcut first-keystroke="meta alt l" />
   </action>
+  <action id="ToolsMenu">
+    <keyboard-shortcut first-keystroke="ctrl k" />
+  </action>
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.ReformatCommitMessage" />
   <action id="Vcs.ShowTabbedFileHistory">
