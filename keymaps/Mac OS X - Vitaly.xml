@@ -93,6 +93,9 @@
   <action id="JS.TypeScript.Compile">
     <keyboard-shortcut first-keystroke="shift meta b" />
   </action>
+  <action id="ManageRecentProjects">
+    <keyboard-shortcut first-keystroke="shift meta p" />
+  </action>
   <action id="MethodHierarchy" />
   <action id="MoveStatementDown">
     <keyboard-shortcut first-keystroke="ctrl meta down" />
