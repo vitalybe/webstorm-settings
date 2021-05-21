@@ -1,0 +1,277 @@
+<templateSet group="user">
+  <template name="tmp" value="print &quot;!!!!!! $NAME$ !!!!!!!&quot;" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="pyFunctionName()" defaultValue="" alwaysStopAt="false" />
+  </template>
+  <template name="imp" value="import $WHAT$ from &quot;app/$PATH$&quot;;" description="import" toReformat="true" toShortenFQNames="true">
+    <variable name="PATH" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="WHAT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="lc" value="$LOGGER_VAR$loggerCreator(&quot;$METHOD$&quot;, moduleLogger);" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="LOGGER_VAR" expression="" defaultValue="&quot;const logger = &quot;" alwaysStopAt="true" />
+    <variable name="METHOD" expression="jsMethodName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="sd" value="const $NAME$ = styled.div`&#10;  $CURSOR$&#10;`;" description="Styled div" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="sc" value="const $COMPONENT$Styled = styled($COMPONENT$)`&#10;  $CURSOR$&#10;`;" description="Styled component" toReformat="true" toShortenFQNames="true">
+    <variable name="COMPONENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="mobxAsync" value="  private $NAME$AsyncObservable = promisedComputed(undefined, async () =&gt; {&#10;  });&#10;&#10;  @computed&#10;  get $NAME$Async() {&#10;    return this.$NAME$AsyncObservable;&#10;  }" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TS_CLASS" value="true" />
+    </context>
+  </template>
+  <template name="comp" value="@computed get $NAME$() {&#10;  return $VALUE$;&#10;}" description="@computed get" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_CLASS" value="true" />
+      <option name="TS_CLASS" value="true" />
+    </context>
+  </template>
+  <template name="lcf" value="import { loggerCreator } from &quot;app/utils/logger&quot;;&#10;//noinspection JSUnusedLocalSymbols&#10;const moduleLogger = loggerCreator(__filename);" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="action-func" value="@action&#10;$NAME$ = () =&gt; {&#10;  $CURSOR$&#10;};" description="action function in model - @action a = () =&gt; { ... }" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_CLASS" value="true" />
+      <option name="TS_CLASS" value="true" />
+    </context>
+  </template>
+  <template name="callback-mock" value="$NAME$: () =&gt; console.log(&quot;$NAME$&quot;)," description="onSomething: () =&gt; console.log(&quot;onSomething&quot;)" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_CLASS" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+      <option name="TS_CLASS" value="false" />
+      <option name="TS_EXPRESSION" value="false" />
+      <option name="TS_STATEMENT" value="false" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="moduleLogger" value="import { loggerCreator } from &quot;common/utils/logger&quot;;&#10;const moduleLogger = loggerCreator(__filename);" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="comp+set" value="// region @observable $NAME$&#10;@observable&#10;private _$NAME$: $TYPE$ = $INIT$;&#10;&#10;@computed get $NAME$() {&#10;  return this._$NAME$;&#10;}&#10;&#10;set $NAME$(value: $TYPE$) {&#10;  this._$NAME$ = value;&#10;}&#10;// endregion @observable $NAME$" description="@computed get + set + @observable field" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="INIT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_CLASS" value="true" />
+      <option name="TS_CLASS" value="true" />
+    </context>
+  </template>
+  <template name="th" value="throw new Error(`$CURSOR$`)" description="throw new error" toReformat="true" toShortenFQNames="true">
+    <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="useState" value="const [$NAME$, set$NAME_SET$] = useState();" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME_SET" expression="capitalize(NAME)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="murmur-prop-number" value="$PROP$: murmur(id + &quot;$PROP$&quot;) % $VALUE$," description="totalTransactions:  (murmur(id + &quot;totalTransactions&quot;) % 100_000_000)" toReformat="false" toShortenFQNames="true">
+    <variable name="PROP" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="&quot;100_000_000&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_CLASS" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+      <option name="TS_CLASS" value="false" />
+      <option name="TS_EXPRESSION" value="false" />
+      <option name="TS_STATEMENT" value="false" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="murmur-prop-bool" value="$PROP$: !!(murmur(id + &quot;$PROP$&quot;) % 2)," description="totalTransactions:  (murmur(id + &quot;totalTransactions&quot;) % 100_000_000)" toReformat="false" toShortenFQNames="true">
+    <variable name="PROP" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_CLASS" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+      <option name="TS_CLASS" value="false" />
+      <option name="TS_EXPRESSION" value="false" />
+      <option name="TS_STATEMENT" value="false" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="murmur-prop-string" value="$PROP$: `$NAME$-${id}`" description="totalTransactions:  (murmur(id + &quot;totalTransactions&quot;) % 100_000_000)" toReformat="false" toShortenFQNames="true">
+    <variable name="PROP" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_CLASS" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+      <option name="TS_CLASS" value="false" />
+      <option name="TS_EXPRESSION" value="false" />
+      <option name="TS_STATEMENT" value="false" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="singleton-param" value="private $NAME_LOWER$ = $NAME$.instance," description="Parameter of a singletone" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME_LOWER" expression="camelCase(NAME)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_CLASS" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+      <option name="TS_CLASS" value="false" />
+      <option name="TS_EXPRESSION" value="false" />
+      <option name="TS_STATEMENT" value="false" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="pr" value="private readonly" description="private readonly" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_CLASS" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+      <option name="TS_CLASS" value="false" />
+      <option name="TS_EXPRESSION" value="false" />
+      <option name="TS_STATEMENT" value="false" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="p" value="${({ $CURSOR$ }) =&gt; };" description="props in styled components" toReformat="true" toShortenFQNames="true">
+    <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="true" />
+    </context>
+  </template>
+  <template name="scg" value="const $COMPONENT$Styled = styled($COMPONENT$)`&#10;` as typeof $COMPONENT$&#10;" description="Styled component (generic)" toReformat="true" toShortenFQNames="true">
+    <variable name="COMPONENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="useProvider" value="const { data: $ENTITY_NAME$, metadata } = useProvider(&#10;    metadata =&gt; $PROVIDER$.instance.provide(metadata),&#10;    false,&#10;    []&#10;  );" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="ENTITY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PROVIDER" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="prop-mock" value="$NAME$: `$NAME$ ${id}`," description="myName: `myName ${id}`," toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_CLASS" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+      <option name="TS_CLASS" value="false" />
+      <option name="TS_EXPRESSION" value="false" />
+      <option name="TS_STATEMENT" value="false" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="yp" value="$NAME$: yup.$TYPE$().label(&quot;$LABEL$&quot;).required()$CURSOR$" description="yup with label" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="&quot;string&quot;" alwaysStopAt="true" />
+    <variable name="LABEL" expression="capitalize(spaceSeparated(NAME))" defaultValue="" alwaysStopAt="false" />
+    <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_CLASS" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+      <option name="TS_CLASS" value="false" />
+      <option name="TS_EXPRESSION" value="false" />
+      <option name="TS_STATEMENT" value="false" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="gridReactRenderer" value="new GridReactRenderer({&#10;    valueGetter: entity =&gt; $VALUE_GETTER$,&#10;    reactRender: props =&gt; {&#10;      $REACT_CONTENT$&#10;    },&#10;  })" description="QwiltGrid - new GridReactRenderer" toReformat="true" toShortenFQNames="true">
+    <variable name="VALUE_GETTER" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="REACT_CONTENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="TS_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="rfun" value="//region [[ Functions ]]&#10;$CURSOR$$SELECTION$&#10;//endregion [[ Functions ]]" description="// region [[ Functions ]]" toReformat="false" toShortenFQNames="true">
+    <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="attrs" value=".attrs({$CURSOR$})" description="attrs" toReformat="true" toShortenFQNames="true">
+    <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="TS_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="attrs2" value="attrs({  })" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_CLASS" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+      <option name="TS_CLASS" value="false" />
+      <option name="TS_EXPRESSION" value="false" />
+      <option name="TS_STATEMENT" value="false" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="todo" value="// TODO: $MSG$" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="MSG" expression="" defaultValue="&quot;TBD&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

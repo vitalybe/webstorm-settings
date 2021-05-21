@@ -1,0 +1,14 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="EslintConfiguration">
+        <option name="fix-on-save" value="true" />
+      </component>
+      <component name="PropertiesComponent">
+        <property name="node.js.selected.package.eslint" value="(autodetect)" />
+        <property name="node.js.selected.package.standard" value="" />
+        <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+      </component>
+    </defaultProject>
+  </component>
+</application>

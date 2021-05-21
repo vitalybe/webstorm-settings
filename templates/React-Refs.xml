@@ -1,0 +1,25 @@
+<templateSet group="React-Refs">
+  <template name="ref createRef" value="$NAME$Ref = React.createRef&lt;any&gt;();" description="... = React.createRef&lt;any&gt;();" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_CLASS" value="true" />
+      <option name="TS_CLASS" value="true" />
+    </context>
+  </template>
+  <template name="ref prop" value="$NAME$Ref?: RefObject&lt;any&gt;;" description="...Ref?: RefObject&lt;any&gt;;" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_CLASS" value="true" />
+      <option name="TS_CLASS" value="true" />
+    </context>
+  </template>
+  <template name="ani participate" value="return $NAME$.animation.participate($NAME$.participants.$PARTICIPANT$ ,this.$REF$Ref);" description="animation.participate" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARTICIPANT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="REF" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

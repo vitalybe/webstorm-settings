@@ -1,0 +1,13 @@
+<application>
+  <component name="FileTypeManager" version="18">
+    <extensionMap>
+      <mapping ext="t" type="PLAIN_TEXT" />
+      <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
+      <removed_mapping ext="t" approved="true" type="EJS" />
+      <removed_mapping ext="t" approved="true" type="Native" />
+      <removed_mapping pattern=".t" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping pattern=".yarnrc" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping pattern="container.ejs.t" approved="true" type="PLAIN_TEXT" />
+    </extensionMap>
+  </component>
+</application>
