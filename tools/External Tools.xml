@@ -55,5 +55,11 @@
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
-
+  <tool name="Mass Rename - Rename" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/bin/sh" />
+      <option name="PARAMETERS" value="-c &quot;echo RUN: /Users/vitalyb/git/rename-file-and-content/run.sh rename \\&quot;$FileDir$\\&quot;  \\&quot;$FileDirName$ -\&gt; TBD\\&quot;&quot;" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
 </toolSet>
