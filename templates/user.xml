@@ -274,7 +274,7 @@
       <option name="TS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="prepareQuery" value="prepareQuery($ARGS_WITH_TYPES$): PrepareQueryResult&lt;$TYPE$&gt; {&#10;    return new PrepareQueryResult&lt;$TYPE$&gt;({&#10;      name: &quot;$CLASS_NAME$.prepareQuery&quot;,&#10;      // NOTE: remove if there are no arguments&#10;      // eslint-disable-next-line prefer-rest-params&#10;      params: [...arguments],&#10;      provide: async () =&gt; {&#10;        return await this.provide($ARGS$);&#10;      },&#10;    });&#10;  }" toReformat="true" toShortenFQNames="true">
+  <template name="prepareQuery" value="prepareQuery($ARGS_WITH_TYPES$): PrepareQueryResult&lt;$TYPE$&gt; {&#10;    return new PrepareQueryResult&lt;$TYPE$&gt;({&#10;      name: &quot;$CLASS_NAME$.prepareQuery&quot;,&#10;      // NOTE: remove if there are no arguments&#10;      // eslint-disable-next-line prefer-rest-params&#10;      params: [...arguments],&#10;      provide: async () =&gt; {&#10;        return await this.provide($ARGS$);&#10;      },&#10;    });&#10;  }" description="" toReformat="true" toShortenFQNames="true">
     <variable name="ARGS_WITH_TYPES" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="ARGS" expression="ARGS_WITH_TYPES" defaultValue="" alwaysStopAt="true" />
