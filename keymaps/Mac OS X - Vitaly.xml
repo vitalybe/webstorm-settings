@@ -140,6 +140,9 @@
   <action id="Run">
     <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
+  <action id="RunAnything">
+    <keyboard-shortcut first-keystroke="shift meta y" />
+  </action>
   <action id="RunDashboard.CopyConfiguration" />
   <action id="RunDashboard.ShowConfigurations" />
   <action id="SelectIn">
