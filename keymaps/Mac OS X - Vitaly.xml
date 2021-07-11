@@ -111,6 +111,9 @@
     <keyboard-shortcut first-keystroke="ctrl enter" />
     <keyboard-shortcut first-keystroke="meta n" />
   </action>
+  <action id="Nx.NxNewGenerateActionGroup">
+    <keyboard-shortcut first-keystroke="shift meta y" />
+  </action>
   <action id="OptimizeImports">
     <keyboard-shortcut first-keystroke="ctrl meta alt o" />
     <keyboard-shortcut first-keystroke="alt o" />
@@ -139,9 +142,6 @@
   </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="ctrl r" />
-  </action>
-  <action id="RunAnything">
-    <keyboard-shortcut first-keystroke="shift meta y" />
   </action>
   <action id="RunDashboard.CopyConfiguration" />
   <action id="RunDashboard.ShowConfigurations" />
