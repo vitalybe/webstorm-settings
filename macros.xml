@@ -1,0 +1,9 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="test">
+      <shortuct text="meta COMMA" />
+      <action id="GotoAction" />
+      <shortuct text="ENTER" />
+    </macro>
+  </component>
+</application>
