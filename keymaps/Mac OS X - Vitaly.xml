@@ -63,9 +63,6 @@
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="alt down" />
   </action>
-  <action id="ExternalTools_External Tools">
-    <keyboard-shortcut first-keystroke="ctrl e" />
-  </action>
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.NewFolder" />
   <action id="FindInPath">
@@ -116,7 +113,7 @@
     <keyboard-shortcut first-keystroke="meta n" />
   </action>
   <action id="Nx.NxNewGenerateActionGroup">
-    <keyboard-shortcut first-keystroke="shift meta y" />
+    <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
   <action id="NxLoadUnloadModules">
     <keyboard-shortcut first-keystroke="shift meta u" />
@@ -185,9 +182,6 @@
   <action id="ToggleLineBreakpoint">
     <keyboard-shortcut first-keystroke="meta f8" />
     <keyboard-shortcut first-keystroke="meta alt b" />
-  </action>
-  <action id="Tool_External Tools_Mass rename">
-    <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="r" />
   </action>
   <action id="Tool_External Tools_PrettierTool">
     <keyboard-shortcut first-keystroke="meta alt l" />
