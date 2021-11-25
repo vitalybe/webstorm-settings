@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern=".env.local" type="PLAIN_TEXT" />
       <mapping ext="ts__tmpl__" type="PLAIN_TEXT" />
       <mapping ext="tsx__tmpl__" type="PLAIN_TEXT" />
       <mapping ext="tjp" type="PLAIN_TEXT" />
