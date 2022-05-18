@@ -292,4 +292,11 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="useMemo" value="useMemo(() =&gt; $CURSOR$$SELECTION$, []);" description="Surround with useMemo" toReformat="false" toShortenFQNames="true">
+    <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
